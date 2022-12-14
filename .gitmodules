@@ -1,0 +1,3 @@
+[submodule "nlwcopa-server"]
+	path = nlwcopa-server
+	url = https://github.com/brunobhs18/nlwcopa-server
