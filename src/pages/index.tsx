@@ -59,9 +59,9 @@ export default function Home(props: HomeProps) {
       <header>
         <div className="flex flex-row-reverse bg-gray-800 h-8">
           <div className="flex mx-2">{user.photoURL && <img className="rounded-full" src={user.photoURL} alt="Foto do usuário" />}</div> 
-          <Link  className="bg-yellow-500 mx-2 px-4 py-2 rounded text-gray-900 font-bold text-sm uppercase hover:bg-yellow-600"
+          {/* <Link  className="bg-yellow-500 mx-2 px-4 py-2 rounded text-gray-900 font-bold text-sm uppercase hover:bg-yellow-600"
                 href="/polls"
-              >Ver Bolões</Link>        
+              >Ver Bolões</Link>         */}
            <button
               className="bg-yellow-500 px-4 py-2 rounded text-gray-900 font-bold text-sm uppercase hover:bg-yellow-600" 
               onClick={Login}>Login com Google
